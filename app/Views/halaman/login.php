@@ -1,14 +1,11 @@
-<html>
-    <head>
-        <title>perpustakaan login</title>
-    </head>
-    <body>
+<?=$this->extend('dasar_tampilan');?>
 
-        <h1>Selamat datang di sistem informasi perpustakaan</h1>
-        <p>
-            ini adalah layanan perpustakaan digital masa kini
-            <a href="<?=base_url('/daftar-member')?>">klik daftar</a> untuk mendaftar menjadi member
-        </p>
+<?=$this->section('isiweb')?>
 
-    </body>
-</html>
+<form>
+    <input type="text" name="email" />
+    <input type="password" name="sandi" />
+    <button >Login<button>
+</form>
+
+<?=$this->endSection()?>
