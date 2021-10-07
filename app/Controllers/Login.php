@@ -1,7 +1,7 @@
 <?php
 namespace  App\Controllers;
 
-class Login extends BaseController{
+class login extends BaseController{
 
     public function cekLogin(){
         $e = $this->request->getPost('email');
